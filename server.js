@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors())
 
 app.get('/addNumber/:n1/:n2', function(request, response) {
-  response.json({statusCode: 200});
+  response.json({sendStatus: 200});
   
   //response.sendStatus(200);
 })
